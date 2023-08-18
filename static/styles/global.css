@@ -1,0 +1,79 @@
+@font-face {
+    font-family: 'aeonik';
+    src:
+        url('../fonts/aeonik/aeonik-regular.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'bold-aeonik';
+    src:
+        url('../fonts/aeonik/aeonik-bold.otf') format('opentype');
+}
+
+
+@font-face {
+    font-family: 'made-mellow';
+    src: url('../fonts/made-mellow/made-mellow-bold.otf') format('opentype');
+}
+
+body {
+    font-family: 'aeonik';
+
+}
+
+.aeonik-bold {
+    font-family: 'bold-aeonik';
+
+}
+
+
+
+.made-mellow {
+    font-family: 'made-mellow', sans-serif !important;
+}
+
+.green-btn {
+    background: linear-gradient(to right, #11453B 0%, #11453B 100%);
+    transition: all 0.3s ease;
+    box-shadow: 0px 8px 16px 0px rgba(17, 69, 59, 0.20);
+}
+
+.green-btn:hover {
+    animation: greenBtnTransition 0.2s linear forwards;
+    color: #11453B;
+    border: 1px solid #11453B;
+    box-shadow: 0px 0px 0px 0px rgba(17, 69, 59, 0);
+}
+
+@keyframes greenBtnTransition {
+    from {
+        background: linear-gradient(to right, #FFF 10%, #11453B 100%);
+
+    }
+
+    to {
+        background: linear-gradient(to right, #FFF 100%, #FFF 100%);
+    }
+}
+
+.white-btn {
+    background: linear-gradient(to right, #FFF 0%, #FFF 100%);
+    transition: all 0.3s ease;
+}
+
+.white-btn:hover {
+    animation: whiteBtnTransition 0.2s linear forwards;
+    color: #FFF;
+    box-shadow: 0px 8px 16px 0px rgba(17, 69, 59, 0.20);
+}
+
+@keyframes whiteBtnTransition {
+    from {
+        background: linear-gradient(to right, #11453B 10%, #FFF 100%);
+
+    }
+
+    to {
+        background: linear-gradient(to right, #11453B 100%, #11453B 100%);
+    }
+}
