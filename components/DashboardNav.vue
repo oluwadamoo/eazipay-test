@@ -1,5 +1,6 @@
 <template>
-    <nav class="bg-[#fff] fixed w-[calc(100%-272px)] top-[0] flex px-[61px] items-center justify-between h-[80px] shadow">
+    <nav
+        class="z-[100000] bg-[#fff] fixed w-[calc(100%-272px)] top-[0] flex px-[61px] items-center justify-between h-[80px] shadow">
         <img alt="company logo" src="/images/f-logo.svg" />
 
         <div class="flex items-center">

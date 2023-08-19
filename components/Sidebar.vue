@@ -1,6 +1,6 @@
 
 <template>
-    <div class="w-[272px] relative bg-[#fff] shadow pb-[268px]">
+    <div class="min-w-[272px] w-[272px] relative bg-[#fff] shadow pb-[268px]">
         <div class="relative flex items-center justify-center h-[150px]">
             <WhiteLogo :extraClass="'w-[124.335px] h-[32.66px] z-[1000]'" />
             <div class="absolute top-[0px] w-full h-full  left-0 right-0">

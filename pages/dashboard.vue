@@ -101,7 +101,113 @@
 
         <!-- Recent Activites -->
         <div class="mt-[48px]">
+            <h4>Recent Activities</h4>
+            <div class="py-[24px] flex items-center">
+                <div class="w-[100%] border-[1px] border-[#B5B6B5] overflow-hidden rounded-[16px] flex items-center ">
+                    <input placeholder="Search employee" class="h-[100%] outline-none w-[100%] px-[32px]" />
+                    <button class="w-[fit] px-[32px] py-[12px] bg-[#D9EBCD]">
+                        <img src="/images/search.svg" alt="search" />
+                    </button>
+                </div>
 
+                <button
+                    class="ml-[16px] flex items-center bg-[#fff] border-[#B5B6B5] border-[1px] rounded-[16px] px-[16px] py-[12px]">
+                    <img alt="filter" src="/images/filter.svg" class="mr-[8px]" />
+                    Filter
+                </button>
+            </div>
+
+
+            <div class="rounded-[20px] bg-[#F2F1F180] p-[24px] max-h-[753px] overflow-y-scroll">
+                <h6 class="text-[18px] text-[#515251] mb-[21px]">Wednesday, November 09, 2022</h6>
+
+                <div v-for="(item, index) in [0, 0]" :key="index"
+                    class="mb-[10px] w-[100%] shadow rounded-[16px] bg-[#fff] px-[48px] py-[8px]">
+                    <p class="mb-[22px] text-[#8D8E8D] text-[12px]">PAYROLL</p>
+                    <div class="flex items-center justify-between">
+                        <div class="flex items-center">
+                            <div class="flex items-center justify-center bg-[#01AA8C] rounded-[40px] h-[40px] w-[40px]">
+                                <p class="text-[#fff] text-[16px]">BM</p>
+                            </div>
+                            <h5 class="ml-[10px] text-[#515251] text-[16px]">Badmus Kemis</h5>
+
+                        </div>
+                        <div>
+                            <p class="mb-[8px] text-[#8D8E8D] text-[12px]">Activity</p>
+                            <h5 class="text-[#515251] text-[16px]">Paid November 2022 salary</h5>
+                        </div>
+                        <div>
+                            <p class="mb-[8px] text-[#8D8E8D] text-[12px]">Employee</p>
+                            <h5 class="text-[#515251] text-[16px]">52</h5>
+
+                        </div>
+                        <div class="">
+                            <p class="mb-[8px] text-[#8D8E8D] text-[12px]">Time</p>
+                            <h5 class="text-[#515251] text-[16px]">10:10</h5>
+
+                        </div>
+                    </div>
+                </div>
+
+                <h6 class="text-[18px] text-[#515251] mb-[21px] mt-[45px]">Monday, November 04, 2022</h6>
+
+                <div v-for="(item, index) in [0, 0]" :key="index"
+                    class="mb-[10px] w-[100%] shadow rounded-[16px] bg-[#fff] px-[48px] py-[8px]">
+                    <p class="mb-[22px] text-[#8D8E8D] text-[12px]">PAYROLL</p>
+                    <div class="flex items-center justify-between">
+                        <div class="flex items-center">
+                            <div class="flex items-center justify-center bg-[#01AA8C] rounded-[40px] h-[40px] w-[40px]">
+                                <p class="text-[#fff] text-[16px]">BM</p>
+                            </div>
+                            <h5 class="ml-[10px] text-[#515251] text-[16px]">Badmus Kemis</h5>
+
+                        </div>
+                        <div>
+                            <p class="mb-[8px] text-[#8D8E8D] text-[12px]">Activity</p>
+                            <h5 class="text-[#515251] text-[16px]">Paid November 2022 salary</h5>
+                        </div>
+                        <div>
+                            <p class="mb-[8px] text-[#8D8E8D] text-[12px]">Employee</p>
+                            <h5 class="text-[#515251] text-[16px]">52</h5>
+
+                        </div>
+                        <div class="">
+                            <p class="mb-[8px] text-[#8D8E8D] text-[12px]">Time</p>
+                            <h5 class="text-[#515251] text-[16px]">10:10</h5>
+
+                        </div>
+                    </div>
+                </div>
+                <h6 class="text-[18px] text-[#515251] mb-[21px] mt-[45px]">Monday, November 04, 2022</h6>
+
+                <div v-for="(item, index) in [0, 0]" :key="index"
+                    class="mb-[10px] w-[100%] shadow rounded-[16px] bg-[#fff] px-[48px] py-[8px]">
+                    <p class="mb-[22px] text-[#8D8E8D] text-[12px]">PAYROLL</p>
+                    <div class="flex items-center justify-between">
+                        <div class="flex items-center">
+                            <div class="flex items-center justify-center bg-[#01AA8C] rounded-[40px] h-[40px] w-[40px]">
+                                <p class="text-[#fff] text-[16px]">BM</p>
+                            </div>
+                            <h5 class="ml-[10px] text-[#515251] text-[16px]">Badmus Kemis</h5>
+
+                        </div>
+                        <div>
+                            <p class="mb-[8px] text-[#8D8E8D] text-[12px]">Activity</p>
+                            <h5 class="text-[#515251] text-[16px]">Paid November 2022 salary</h5>
+                        </div>
+                        <div>
+                            <p class="mb-[8px] text-[#8D8E8D] text-[12px]">Employee</p>
+                            <h5 class="text-[#515251] text-[16px]">52</h5>
+
+                        </div>
+                        <div class="">
+                            <p class="mb-[8px] text-[#8D8E8D] text-[12px]">Time</p>
+                            <h5 class="text-[#515251] text-[16px]">10:10</h5>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </template>
